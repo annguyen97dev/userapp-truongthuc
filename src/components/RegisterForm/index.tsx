@@ -36,7 +36,6 @@ function index(props) {
 
   const [loading, setLoading] = useState(false);
 
-
   // const [state, setState] = useState();
 
   const _Submit = async (data: { repassword: '', password: '', username: '', roles: [], email: '' }) => {
@@ -143,7 +142,6 @@ function index(props) {
                 <option value="moderator">mod</option>
               </select>
               {errors.roles && <span>Phải chọn ít nhất một quyền</span>} */}
-
 
               <div className={styles.boxSubmit}>
                 <input type="submit" value={'Đăng ký'} />
